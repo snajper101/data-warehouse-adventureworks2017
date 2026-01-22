@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>WCY23IJ2S1_GR2</Database>
+    <Server>10.7.39.23</Server>
+    <ConnectionString>Data Source=10.7.39.23;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>d2rtVKduwiZg/xneJAsfDo3xbEY=14.01.2026 20:14:2814.01.2026 19:38:17</TimeStamp>
+        <ID>
+          <String>WCY23IJ2S1-GR2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tgkMcJg22E2QkMS2lysIZkwMJHo=14.01.2026 20:58:1814.01.2026 19:38:48</TimeStamp>
+        <ID>
+          <String>WCY23IJ2S1-GR2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3tHet4C46bhU0B0sWH975eyqy1g=14.01.2026 21:04:1514.01.2026 19:41:52</TimeStamp>
+        <ID>
+          <String>D Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/zRa3Sjhz7X1uLCa/0i71vmPDhs=14.01.2026 19:52:1014.01.2026 19:50:25</TimeStamp>
+        <ID>
+          <String>D Produkt</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ErLKtqFNQULwDGbqKDGCF8GQkp0=14.01.2026 19:53:1714.01.2026 19:52:25</TimeStamp>
+        <ID>
+          <String>D Promocja</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q9kkGe/MduPIyW/2PVsGCJmCK7Y=14.01.2026 19:56:1414.01.2026 19:53:41</TimeStamp>
+        <ID>
+          <String>D Sklep</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SDkfH7NgGxuKXE2gU5QtsYyBJ7I=14.01.2026 21:04:1614.01.2026 20:07:50BSamt+A6cNw8aUQWKLTTYNTWdis=14.01.2026 20:07:5114.01.2026 20:07:50</TimeStamp>
+        <ID>
+          <String>WCY23IJ2S1-GR2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>0QnY206iFIoK4uSx7GtdsNJa+Cc=14.01.2026 19:34:3014.01.2026 19:34:29</TimeStamp>
+      <ID>
+        <String>WCY23IJ2S1_GR2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-01-14T20:04:25.89Z</LastDeployed>
+</DeploymentSnapshot>
